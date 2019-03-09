@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.configTest.ConfigTest1">
+      <class name="com.configTest.DBTest">
         <methods>
-          <include name="test"/>
+          <include name="dbTest"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.configTest.ConfigTest1 -->
+      </class> <!-- com.configTest.DBTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

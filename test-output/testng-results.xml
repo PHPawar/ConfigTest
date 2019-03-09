@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="79" started-at="2019-03-09T03:40:12Z" finished-at="2019-03-09T03:40:12Z">
+  <suite name="Default suite" duration-ms="1332" started-at="2019-03-09T09:03:10Z" finished-at="2019-03-09T09:03:11Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="79" started-at="2019-03-09T03:40:12Z" finished-at="2019-03-09T03:40:12Z">
-      <class name="com.configTest.ConfigTest1">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.configTest.ConfigTest1@643b1d11]" name="setUp" is-config="true" duration-ms="22" started-at="2019-03-09T03:40:12Z" finished-at="2019-03-09T03:40:12Z">
+    <test name="Default test" duration-ms="1332" started-at="2019-03-09T09:03:10Z" finished-at="2019-03-09T09:03:11Z">
+      <class name="com.configTest.DBTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.configTest.DBTest@51efea79]" name="setUp" is-config="true" duration-ms="15" started-at="2019-03-09T09:03:10Z" finished-at="2019-03-09T09:03:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="test()[pri:0, instance:com.configTest.ConfigTest1@643b1d11]" name="test" duration-ms="18" started-at="2019-03-09T03:40:12Z" finished-at="2019-03-09T03:40:12Z">
+        <test-method status="PASS" signature="dbTest()[pri:0, instance:com.configTest.DBTest@51efea79]" name="dbTest" duration-ms="1279" started-at="2019-03-09T09:03:10Z" finished-at="2019-03-09T09:03:11Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- com.configTest.ConfigTest1 -->
+        </test-method> <!-- dbTest -->
+      </class> <!-- com.configTest.DBTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
