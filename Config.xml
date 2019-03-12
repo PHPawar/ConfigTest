@@ -4,6 +4,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.configTest.ConfigTest1"/>
+       <class name="com.configTest.ConfigTest2"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
